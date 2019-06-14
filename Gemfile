@@ -10,7 +10,7 @@ end
 gem 'rails', '~> 5.1.7'
 gem 'bootstrap-sass', '~>3.3.6'
 # Use sqlite3 as the database for Active Record
-gem 'bcrypt', '~> 3.1.1'
+gem 'bcrypt', '~> 3.1.11'
 gem 'faker', '1.6.3'
 gem 'carrierwave', '~> 0.11.2'
 gem 'mini_magick', '4.5.1'
