@@ -1,4 +1,14 @@
 <% provide(:title, "Home") %>
+
+<% if logged_in %>
+  <div class="row">
+    <aside class="col-md-6">
+      <section class="user_info">
+        <%= render 'shared/user_info'%>
+      </section>
+    </aside>
+  </div>
+  <% else %>
 <div class="jumbotron">
   <h1>
     Welcome to the sample application
@@ -10,3 +20,4 @@
 
 </div>
 <%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
+<% end %>
